@@ -1,7 +1,6 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect } from "react";
 import Navbar from "./Nav";
 import lamp from "../assets/greenlight.svg"
-import bangunan from "../assets/bangunan.jpg"
 import foto from "../assets/jennifer.jpeg"
 import AOS from "aos";
 import "aos/dist/aos.css";
