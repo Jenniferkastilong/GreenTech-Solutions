@@ -9,7 +9,7 @@ import Contact from "./components/Contact.jsx";
 
 const App = () => {
   return (
-    <Router>
+    <Router basename="/GreenTech-Solutions">
       <div>
         <Routes>
           <Route path="/" element={<Home />} />
