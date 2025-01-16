@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/GreenTect-Solutions/static/css/main.e9a33918.css",
+    "main.js": "/GreenTect-Solutions/static/js/main.059bf9c7.js",
+    "static/js/488.a10bbd6c.chunk.js": "/GreenTect-Solutions/static/js/488.a10bbd6c.chunk.js",
+    "static/media/bangunan.jpg": "/GreenTect-Solutions/static/media/bangunan.3acffcd25f56d4098e56.jpg",
+    "static/media/farm.jpg": "/GreenTect-Solutions/static/media/farm.f55c0aa097de900cf758.jpg",
+    "static/media/jennifer.jpeg": "/GreenTect-Solutions/static/media/jennifer.920028cce4ea7a635b42.jpeg",
+    "static/media/solar.jpg": "/GreenTect-Solutions/static/media/solar.1a7fc0b04cd65dac1afc.jpg",
+    "static/media/laptop.jpg": "/GreenTect-Solutions/static/media/laptop.297fc0075f0a64009005.jpg",
+    "static/media/wind.jpg": "/GreenTect-Solutions/static/media/wind.15f86c4de7e2ae4ca923.jpg",
+    "static/media/GreenTech Solution.png": "/GreenTect-Solutions/static/media/GreenTech Solution.cb7c9078052ba2a8d3ed.png",
+    "static/media/power bank.avif": "/GreenTect-Solutions/static/media/power bank.f5ef74ed0bded58adf85.avif",
+    "static/media/GreenTech Solutions.png": "/GreenTect-Solutions/static/media/GreenTech Solutions.e37a584605b8754d528c.png",
+    "static/media/eneloop.jpg": "/GreenTect-Solutions/static/media/eneloop.44bf96f516ab6278429c.jpg",
+    "static/media/lamp.jpg": "/GreenTect-Solutions/static/media/lamp.5b3ac6964d34609f08e0.jpg",
+    "static/media/smartbin.avif": "/GreenTect-Solutions/static/media/smartbin.c00ae4f35ed33ec1907f.avif",
+    "static/media/mobil.jpg": "/GreenTect-Solutions/static/media/mobil.87e195a6e8a4b350e1d8.jpg",
+    "static/media/thermostats.jpg": "/GreenTect-Solutions/static/media/thermostats.f17931fcaa1888693b2d.jpg",
+    "static/media/greenlight.svg": "/GreenTect-Solutions/static/media/greenlight.f34a53a4d4e6ee393b7e21cb8c02e4a2.svg",
+    "static/media/slick.svg": "/GreenTect-Solutions/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/GreenTect-Solutions/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/GreenTect-Solutions/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/GreenTect-Solutions/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/GreenTect-Solutions/index.html",
+    "main.e9a33918.css.map": "/GreenTect-Solutions/static/css/main.e9a33918.css.map",
+    "main.059bf9c7.js.map": "/GreenTect-Solutions/static/js/main.059bf9c7.js.map",
+    "488.a10bbd6c.chunk.js.map": "/GreenTect-Solutions/static/js/488.a10bbd6c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e9a33918.css",
+    "static/js/main.059bf9c7.js"
+  ]
+}
