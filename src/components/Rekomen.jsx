@@ -1,15 +1,15 @@
 import React, { useEffect, useState } from "react";
-import products from "./Products"; // Data produk
-import testimoni from "./Testimoni"; // Data testimoni
-import loadings from "../assets/GreenTech Solution.png"; // Gambar loading
-import "./css/Rekomen.css"; // CSS tambahan
+import products from "./Products"; 
+import testimoni from "./Testimoni"; 
+import loadings from "../assets/GreenTech Solution.png"; 
+import "./css/Rekomen.css"; 
 
 const Recommended = () => {
   const [carbonIntensity, setCarbonIntensity] = useState(null);
   const [recommendedProducts, setRecommendedProducts] = useState([]);
   const [loading, setLoading] = useState(true);
 
-  // Menghitung rata-rata rating
+  
   const calculateAverageRatings = () => {
     return testimoni.map((item) => {
       const totalRating = item.reviews.reduce(
@@ -21,7 +21,7 @@ const Recommended = () => {
     });
   };
 
-  // Menggabungkan data produk dengan rating
+  
   const mergeRatingsWithProducts = (ratings) => {
     return products.map((product) => {
       const productRating = ratings.find(
@@ -31,21 +31,21 @@ const Recommended = () => {
     });
   };
 
-  // Filter produk berdasarkan intensitas karbon
+  
   const filterProductsByCarbon = (productsWithRatings, intensity) => {
     return productsWithRatings.filter(
       (product) => product.carbonIntensity <= intensity
     );
   };
 
-  // Mendapatkan produk dengan rating tertinggi
+  
   const getTopRatedProducts = (productsWithRatings) => {
     return [...productsWithRatings]
       .sort((a, b) => b.averageRating - a.averageRating)
       .slice(0, 3);
   };
 
-  // Fetch data intensitas karbon dari API
+  
   useEffect(() => {
     const fetchCarbonIntensity = async () => {
       const url = "https://api.carbonintensity.org.uk/intensity";
@@ -67,22 +67,22 @@ const Recommended = () => {
     fetchCarbonIntensity();
   }, []);
 
-  // Filter dan rekomendasi produk
+  
   useEffect(() => {
     const ratings = calculateAverageRatings();
     const productsWithRatings = mergeRatingsWithProducts(ratings);
 
     let filteredProducts = [];
     if (carbonIntensity !== null && !isNaN(carbonIntensity)) {
-      // Jika intensitas karbon ditemukan, filter berdasarkan intensitas karbon
+      
       filteredProducts = filterProductsByCarbon(
         productsWithRatings,
         carbonIntensity
       );
     }
 
-    // Jika hasil filter kosong (intensitas karbon tidak ditemukan atau filter tidak menghasilkan apapun),
-    // gunakan produk dengan rating tertinggi
+    
+    
     const topProducts = filteredProducts.length
       ? getTopRatedProducts(filteredProducts)
       : getTopRatedProducts(productsWithRatings);
@@ -90,7 +90,7 @@ const Recommended = () => {
     setRecommendedProducts(topProducts);
   }, [carbonIntensity]);
 
-  // Render loading state
+  
   if (loading) {
     return (
       <div className="flex justify-center items-center h-screen">
@@ -103,7 +103,7 @@ const Recommended = () => {
     );
   }
 
-  // Render komponen
+
   return (
     <div className="mt-5">
       <div className="mb-3" data-aos="fade-up" data-aos-duration="1000">

@@ -34,25 +34,25 @@ const Form = () => {
       newErrors.message = "Pesan harus diisi.";
     }
     setErrors(newErrors);
-    return Object.keys(newErrors).length === 0; // True jika tidak ada error
+    return Object.keys(newErrors).length === 0;
   };
 
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log("Form is being submitted...");
     if (validateForm()) {
-      setShowAlert(true); // Show alert on successful submission
+      setShowAlert(true);
       console.log("Form Valid! Show Alert");
       console.log("Form Submitted:", formData);
 
-      // Reset form data to initial state after successful submission
+     
       setFormData({
         name: "",
         email: "",
         message: "",
       });
     } else {
-      setShowAlert(false); // Hide alert if there's an error
+      setShowAlert(false);
       console.log("Form Invalid! Hide Alert");
     }
   };
