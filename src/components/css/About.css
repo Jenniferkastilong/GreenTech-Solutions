@@ -1,0 +1,116 @@
+:root {
+  --primary-color: #4caf50;
+  --background-color1: #ffffff;
+  --background-color3: #455a64;
+  --text-color1: #455a64;
+  --text-color2: #cfd8dc;
+  --text-color3: #ffffff;
+  --hover-color: #a5d6a7;
+  --card-background-color: #cfd8dc;
+  --font1: "Oswald", serif;
+  --font2: "Lato", sans-serif;
+  --font3: "Playfair Display", serif;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+::-webkit-scrollbar:horizontal {
+  height: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--secondary-color);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--primary-color);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--accent-color);
+}
+
+.cerita {
+  align-content: center;
+}
+
+.misi-grid {
+  text-align: center;
+  i {
+    font-size: 35px;
+    margin: 0 auto;
+  }
+
+  p {
+    text-align: start;
+  }
+}
+
+.visi {
+  background-color: var(--card-background-color);
+  padding: 20px;
+
+  p {
+    color: var(--text-color1);
+  }
+}
+
+.Grid {
+  background-color: var(--card-background-color);
+  padding: 20px;
+  width: 80%;
+  margin: 0 auto;
+
+  p {
+    color: var(--text-color1);
+  }
+
+  i {
+    color: var(--text-color1);
+  }
+}
+
+.nilai {
+  background-color: var(--card-background-color);
+  padding: 20px;
+  width: 80%;
+  margin: 0 auto;
+
+  h3 {
+    color: var(--text-color1);
+  }
+
+  p {
+    color: var(--text-color1);
+  }
+}
+
+.creator {
+  img {
+    margin: 0 auto;
+    width: 15%;
+    height: 15%;
+  }
+
+  p {
+    color: #4f4e4f;
+  }
+}
+
+.bangunan {
+  width: 23.53%;
+  right: 0;
+}
+
+@media (max-width: 640px) {
+  .creator {
+    img {
+      margin: 0 auto;
+      width: 100px;
+      height: 100px;
+    }
+  }
+}

@@ -1,0 +1,24 @@
+:root {
+  --primary-color: #4caf50;
+  --background-color1: #ffffff;
+  --background-color2: #455a64;
+  --text-color1: #455a64;
+  --text-color2: #cfd8dc;
+  --text-color3: #ffffff;
+  --hover-color: #a5d6a7;
+  --card-background-color: #cfd8dc;
+  --font1: "Oswald", serif;
+  --font2: "Lato", sans-serif;
+  --font3: "Playfair Display", serif;
+}
+
+.footer{
+    background-color: var(--background-color2);
+    color: var(--text-color3);
+    height: 1rem;
+
+    i{
+        color: var(--primary-color);
+        font-size: 2rem;
+    }
+}

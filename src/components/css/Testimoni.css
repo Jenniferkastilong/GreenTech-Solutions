@@ -1,0 +1,85 @@
+:root {
+  --primary-color: #4caf50;
+  --background-color1: #ffffff;
+  --background-color2: #455a64;
+  --text-color1: #455a64;
+  --text-color2: #cfd8dc;
+  --text-color3: #ffffff;
+  --hover-color: #a5d6a7;
+  --card-background-color: #cfd8dc;
+  --font1: "Oswald", serif;
+  --font2: "Lato", sans-serif;
+  --font3: "Playfair Display", serif;
+}
+
+.testimoni {
+  background-color: var(--hover-color);
+
+  .box {
+    position: absolute;
+  }
+  .box ul li {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    list-style: none;
+    opacity: 0;
+    background: radial-gradient(var(--primary-color), transparent, transparent);
+    bottom: 0;
+    left: 10vw;
+    animation: anim 10s linear infinite;
+  }
+
+  .box ul li:nth-child(2) {
+    left: 37vw;
+    animation-delay: 2s;
+  }
+
+  .box ul li:nth-child(3) {
+    left: 25vw;
+    animation-delay: 4s;
+  }
+
+  .box ul li:nth-child(4) {
+    left: 60vw;
+    animation-delay: 6s;
+  }
+
+  .box ul li:nth-child(5) {
+    left: 75vw;
+    animation-delay: 4s;
+  }
+
+  .box ul li:nth-child(6) {
+    left: 65vw;
+    animation-delay: 2s;
+  }
+
+  .box ul li:nth-child(7) {
+    left: 40vw;
+    animation-delay: 4s;
+  }
+
+  .box ul li:nth-child(8) {
+    left: 85vw;
+    animation-delay: 6s;
+  }
+
+  .box ul li:nth-child(9) {
+    left: 17vw;
+    animation-delay: 6s;
+  }
+}
+
+@keyframes anim {
+  0% {
+    transform: scale(0);
+    opacity: 1;
+    bottom: 0;
+  }
+  100% {
+    transform: scale(10);
+    opacity: 0;
+    bottom: 100vh;
+  }
+}

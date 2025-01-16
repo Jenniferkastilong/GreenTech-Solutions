@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font1: "Oswald", serif;
+  --font2: "Lato", sans-serif;
+  --font3: "Playfair Display", serif;
+}
+
+body{
+  h1{
+    font-family: var(--font1);
+  }
+
+  p, i{
+    font-family: var(--font2);
+  }
+
+  h2, h3{
+    font-family: var(--font3);
+  }
+
+  .footer{
+    a{
+      font-family: var(--font2);
+    }
+  }
+}

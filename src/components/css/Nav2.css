@@ -1,0 +1,74 @@
+:root {
+  --primary-color: #4caf50;
+  --background-color1: #ffffff;
+  --background-color2: #455a64;
+  --text-color1: #455a64;
+  --text-color2: #cfd8dc;
+  --text-color3: #ffffff;
+  --text-color4: #4f4e4f;
+  --hover-color: #a5d6a7;
+  --card-background-color: #cfd8dc;
+  --font1: "Oswald", serif;
+  --font2: "Lato", sans-serif;
+  --font3: "Playfair Display", serif;
+}
+
+/* html {
+  background-color: var(--background-color2);
+}
+
+.header-nav {
+  background-color: var(--primary-color);
+  border-bottom: 1px solid var(--text-color2);
+} */
+
+.nav-links-desktop a,
+.nav-links-mobile a {
+  color: var(--text-color3);
+  text-decoration: none;
+  font-family: var(--font2);
+  transition: color 0.3s ease;
+}
+
+.nav-links-desktop a.active,
+.nav-links-mobile a.active {
+  color: var(--text-color4);
+  font-weight: bold;
+}
+
+.nav-links-desktop a:hover,
+.nav-links-mobile a:hover {
+  color: var(--hover-color);
+}
+
+#menu-toggle {
+  display: block;
+  cursor: pointer;
+}
+
+#mobile-menu {
+  background-color: var(--primary-color);
+}
+
+@media (min-width: 640px) {
+  #mobile-menu {
+    display: none;
+  }
+  #menu-toggle {
+    display: none;
+  }
+
+  .nav-links-desktop {
+    display: flex !important;
+  }
+}
+
+@media (max-width: 640px) {
+  /* .nav-links-desktop {
+    display: none;
+  } */
+
+  #mobile-menu {
+    display: flex !important;
+  }
+}

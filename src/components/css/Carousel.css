@@ -1,0 +1,7 @@
+@media (min-width: 639px) {
+  .foto {
+    height: 30rem;
+    object-fit: cover;
+    object-position: center;
+  }
+}

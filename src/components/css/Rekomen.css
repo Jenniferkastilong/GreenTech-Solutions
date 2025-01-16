@@ -1,0 +1,39 @@
+.recommended-products {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.product-card {
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.product-image {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.product-card h3 {
+  margin: 10px 0;
+  font-size: 1.2em;
+  color: #333;
+}
+
+.product-card p {
+  margin: 8px 0;
+  font-size: 0.9em;
+  color: #555;
+}
+
+.lihat:hover {
+    color: #555;
+}

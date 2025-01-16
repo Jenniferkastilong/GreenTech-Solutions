@@ -1,0 +1,23 @@
+:root {
+  --primary-color: #4caf50;
+  --background-color1: #ffffff;
+  --background-color2: #455a64;
+  --text-color1: #455a64;
+  --text-color2: #cfd8dc;
+  --text-color3: #ffffff;
+  --hover-color: #a5d6a7;
+  --card-background-color: #cfd8dc;
+  --font1: "Oswald", serif;
+  --font2: "Lato", sans-serif;
+  --font3: "Playfair Display", serif;
+}
+
+.Api {
+    background-color: var(--hover-color);
+    width: 60%;
+    padding: 1rem;
+    height: 13rem;
+    align-content: center;
+    margin: auto;
+    border-radius: 20px;
+}
