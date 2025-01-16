@@ -83,7 +83,7 @@ const Blog = () => {
               onClick={closeModal}
               className="absolute top-4 right-4 text-xl text-green-400"
             >
-              <i class="fa-solid fa-xmark"></i>
+              <i className="fa-solid fa-xmark"></i>
             </button>
             <img
               src={selectedArtikel.Image}

@@ -199,7 +199,7 @@ const Card = () => {
               className="close-button absolute top-2 right-2 text-gray-500 hover:text-gray-700 dark:text-gray-300 dark:hover:text-white"
               onClick={closeModal}
             >
-              <i class="fa-solid fa-xmark"></i>
+              <i className="fa-solid fa-xmark"></i>
             </button>
 
             <div className="relative w-full" style={{ height: "calc(43vw)" }}>

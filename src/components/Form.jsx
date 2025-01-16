@@ -139,7 +139,7 @@ const Form = () => {
           <h2>Informasi Kontak</h2>
           <div className="info mb-3 flex gap-3">
             <div>
-              <i class="fa-solid fa-envelope"></i>
+              <i className="fa-solid fa-envelope"></i>
             </div>
             <div>
               <h3 className="text-xl">Email</h3>
@@ -148,7 +148,7 @@ const Form = () => {
           </div>
           <div className="info mb-3 flex gap-3">
             <div>
-              <i class="fa-solid fa-phone"></i>
+              <i className="fa-solid fa-phone"></i>
             </div>
             <div>
               <h3 className="text-xl">Telepon</h3>
@@ -157,7 +157,7 @@ const Form = () => {
           </div>
           <div className="info flex gap-3">
             <div>
-              <i class="fa-solid fa-location-dot"></i>
+              <i className="fa-solid fa-location-dot"></i>
             </div>
             <div>
               <h3 className="text-xl">Alamat</h3>

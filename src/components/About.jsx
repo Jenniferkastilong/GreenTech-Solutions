@@ -69,7 +69,7 @@ const About = () => {
           <div className="misi-grid grid grid-cols-1 sm:grid-cols-3 gap-2">
             <div className="Grid" data-aos="fade-up"
           data-aos-duration="1000">
-              <i class="fa-brands fa-stack-overflow"></i>
+              <i className="fa-brands fa-stack-overflow"></i>
               <p className="mt-2 text-xs sm:text-sm lg:text-base">
                 Mengembangkan produk ramah lingkungan yang efisien dan
                 terjangkau
@@ -77,7 +77,7 @@ const About = () => {
             </div>
             <div className="Grid" data-aos="fade-up"
           data-aos-duration="1000">
-              <i class="fa-solid fa-signal"></i>
+              <i className="fa-solid fa-signal"></i>
               <p className="mt-2 text-xs sm:text-sm lg:text-base">
                 Meningkatkan kesadaran tentang pentingnya gaya hidup hijau dan
                 penggunaan energi terbarukan
@@ -85,7 +85,7 @@ const About = () => {
             </div>
             <div className="Grid" data-aos="fade-up"
           data-aos-duration="1000">
-              <i class="fa-regular fa-lightbulb"></i>
+              <i className="fa-regular fa-lightbulb"></i>
               <p className="mt-2 text-xs sm:text-sm lg:text-base">
                 Berinovasi dalam setiap aspek kehidupan untuk menciptakan
                 perubahan positif bagi planet kita
