@@ -1,5 +1,4 @@
 import React from "react";
-import Carousel from "./Carousel";
 import Navbars from "./Nav2";
 import WeatherComponent from "./Weather";
 import CarbonIntensity from "./Carbon";
