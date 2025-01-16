@@ -1,9 +1,8 @@
 {
   "files": {
     "main.css": "/GreenTech-Solutions/static/css/main.67356689.css",
-    "main.js": "/GreenTech-Solutions/static/js/main.0463384d.js",
+    "main.js": "/GreenTech-Solutions/static/js/main.d62ba361.js",
     "static/js/488.a10bbd6c.chunk.js": "/GreenTech-Solutions/static/js/488.a10bbd6c.chunk.js",
-    "static/media/bangunan.jpg": "/GreenTech-Solutions/static/media/bangunan.3acffcd25f56d4098e56.jpg",
     "static/media/farm.jpg": "/GreenTech-Solutions/static/media/farm.f55c0aa097de900cf758.jpg",
     "static/media/jennifer.jpeg": "/GreenTech-Solutions/static/media/jennifer.920028cce4ea7a635b42.jpeg",
     "static/media/solar.jpg": "/GreenTech-Solutions/static/media/solar.1a7fc0b04cd65dac1afc.jpg",
@@ -24,11 +23,11 @@
     "static/media/slick.woff": "/GreenTech-Solutions/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/GreenTech-Solutions/index.html",
     "main.67356689.css.map": "/GreenTech-Solutions/static/css/main.67356689.css.map",
-    "main.0463384d.js.map": "/GreenTech-Solutions/static/js/main.0463384d.js.map",
+    "main.d62ba361.js.map": "/GreenTech-Solutions/static/js/main.d62ba361.js.map",
     "488.a10bbd6c.chunk.js.map": "/GreenTech-Solutions/static/js/488.a10bbd6c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.67356689.css",
-    "static/js/main.0463384d.js"
+    "static/js/main.d62ba361.js"
   ]
 }
